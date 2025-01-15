@@ -6,17 +6,21 @@ This project is a Spotify Clone that demonstrates a responsive music web applica
 
 ## Features
 
-### Responsive Design: The app is fully responsive and works seamlessly across devices including desktops, tablets, and smartphones
+### Responsive Design: 
+The app is fully responsive and works seamlessly across devices including desktops, tablets, and smartphones
 
-### Music Playback: Users can play songs and experience a basic music player interface.
+### Music Playback: 
+Users can play songs and experience a basic music player interface.
 
-### Modern UI/UX: Built with a focus on aesthetics, inspired by Spotify's design.
+### Modern UI/UX: 
+Built with a focus on aesthetics, inspired by Spotify's design.
 
  
 
 ## Technologies Used
 
-### Frontend: HTML, CSS, JavaScript
+### Frontend:
+HTML, CSS, JavaScript
 
 ### Backend: (Optional, specify if used)
 
