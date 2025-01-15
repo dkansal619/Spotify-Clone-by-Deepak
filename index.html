@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <body>
+    <!-- first section -->
+    <!-- navigation bar with logo and buttons -->
+    <div class="navbar">
+      <div class="logo">
+        <img class="hamburger" src="svg's/hamburger.svg" alt="hamburger" />
+        <img class="SpotifyLogo" src="svg's/logo.svg" alt="logo" />
+      </div>
+
+      <!-- navSearch -->
+      <div class="navSearch">
+        <div class="homeLogo">
+          <img src="svg's/home.svg" alt="" />
+        </div>
+
+        <div tabindex="0" class="search">
+          <div class="searchInput">
+            <img src="svg's/search.svg" alt="" />
+            <div class="input">
+              <input type="text" placeholder="What do you want to play?" />
+            </div>
+          </div>
+
+          <!-- line -->
+          <div class="line"></div>
+
+          <!-- browse -->
+          <div class="browse">
+            <img src="svg's/browse.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- buttons -->
+
+      <div class="buttons">
+        <button class="sign-up">Sign up</button>
+        <button class="log-in">Log in</button>
+      </div>
+    </div>
+
+    <!-- diving left and right in this container -->
+    <div class="section-container">
+      <!--second section on the left side for library  -->
+      <div class="left">
+        <div class="library-container">
+          <div class="library">
+            <img src="svg's/library.svg" alt="" />
+            <h4>Your Library</h4>
+          </div>
+          <div class="Closelogo">
+            <span class="Kanti">X</span>
+          </div>
+        </div>
+
+        <div class="songList">
+          <!-- dynamic list of songs -->
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Spotify Playlist</h2>
+        <div class="card-container">
+          <div class="card" data-playlist="playlist1">
+            <img class="card-img" src="images/card1.jpg" alt="" />
+            <h4>Playlist 1</h4>
+            <img class="green-play-svg" src="svg's/greenPlay.svg" alt="" />
+          </div>
+          <div class="card" data-playlist="playlist2">
+            <img class="card-img" src="images/card2.jpg" alt="" />
+            <h4>Playlist 2</h4>
+            <img class="green-play-svg" src="svg's/greenPlay.svg" alt="" />
+          </div>
+          <div class="card" data-playlist="playlist3">
+            <img class="card-img" src="images/card3.jpg" alt="" />
+            <h4>Playlist 3</h4>
+
+            <img class="green-play-svg" src="svg's/greenPlay.svg" alt="" />
+          </div>
+          <div class="card" data-playlist="playlist4">
+            <img class="card-img" src="images/card4.jpg" alt="" />
+            <h4>Playlist 4</h4>
+
+            <img class="green-play-svg" src="svg's/greenPlay.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="playbar">
+          <div class="songbuttons-container">
+            <div class="songInfo"></div>
+
+            <div class="songbuttons">
+              <img class="left-play" src="svg's/leftPlay.svg" alt="" />
+              <img class="play" src="svg's/play.svg" alt="" />
+              <img class="right-play" src="svg's/rightPlay.svg" alt="" />
+            </div>
+
+            <div class="volume-time-container">
+              <div class="songTime"></div>
+              <div class="volume">
+                <img
+                  id="volume_icon"
+                  src="svg's/volume.svg"
+                  alt="volume logo"
+                />
+                <input type="range" id="volume" min="0" max="100" value="50" />
+              </div>
+            </div>
+          </div>
+
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

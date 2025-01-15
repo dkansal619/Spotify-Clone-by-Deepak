@@ -1,0 +1,29 @@
+/* scrollbar dark */
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the vertical scrollbar */
+  height: 10px; /* Height of the horizontal scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #555; /* Dark gray thumb */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #1e1e1e; /* Space around the thumb */
+}
+
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Lighter gray when hovered */
+}
+
+/* Scrollbar Thumb Active */
+::-webkit-scrollbar-thumb:active {
+  background: #aaa; /* Lightest gray when active */
+}
