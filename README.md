@@ -22,15 +22,15 @@ Built with a focus on aesthetics, inspired by Spotify's design.
 ### Frontend:
 HTML, CSS, JavaScript
 
-### Backend: (Optional, specify if used)
-
 ## Contact
 
 For any questions or feedback, feel free to reach out:
 
-## Email: dkansal619@gmail.com
+## Email:
+dkansal619@gmail.com
 
-## GitHub: dkansal619
+## GitHub: 
+dkansal619
 
 
 ## Songs Used in the App
