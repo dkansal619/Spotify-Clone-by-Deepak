@@ -30,7 +30,7 @@ For any questions or feedback, feel free to reach out:
 dkansal619@gmail.com
 
 ## GitHub: 
-dkansal619
+@dkansal619
 
 
 ## Songs Used in the App
